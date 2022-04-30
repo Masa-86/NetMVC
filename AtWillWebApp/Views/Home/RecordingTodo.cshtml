@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "RecordingTodo";
+}
+
+<div class="text-center">
+    <h1>Todo</h1>
+    <form method="post" action="">
+        <input type="text" id="input_todo" namw="todo" placeholder="todoを入力" />
+        <input type="button" value="追加" onclick="addTableRow('todo_list', 'input_todo')"/>
+        <table id="todo_list"></table>
+    </form>
+</div>
